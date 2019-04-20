@@ -1,0 +1,8 @@
+-En React para enviar datos desde un formulario se le agrega
+el atributo "onSubmit" a la etiqueta <form> y se le pasa el método
+que se ejecutarpa "onSubmit={this.handle}" se recomienda usar la palabra
+"handle" pero se puede cambiarle el nombre
+-Los refs son para leer los valores de los campos de un formulario
+-Es recomendable tener un archivo aparte con funciones extra e importarlas
+para no sobre cargar los componentes
+-El state siempre es un objeto
